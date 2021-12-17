@@ -1,4 +1,24 @@
 # GeoDjango
+A mandatory GeoDjango requirement is GDAL.
+$ sudo apt-get install gdal-bin
+$ sudo apt-get install libgdal-de
+Export path
+$ export CPLUS_INCLUDE_PATH=/usr/include/gdal
+$ export C_INCLUDE_PATH=/usr/include/gdal
+$ pip install GDAL
+
+
+
+In order to use PostGIS as a database backend, we need to install the PostgreSQL C client library
+$ sudo apt-get install libpq5
+
+Install PostgreSQL
+$ sudo apt-get install postgis*
+
+create database user
+$ sudo -u postgres psql
+$ postgres=# ALTER USER postgres PASSWORD 'password';
+
 Install dependencies 
 $ pip install -r requirements.txt
 To run server
