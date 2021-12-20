@@ -27,7 +27,7 @@ $ pip install -r requirements.txt
 To run server
 $ python manage.py runserver
 
-Navigate to add markers on map.
+Navigate to add markers on map with superuser credentials.
 	http://127.0.0.1:8000/admin/markers/marker/add/  
 
 
